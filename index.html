@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OctoLab Prints</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Fixed -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#about" class="nav-link active">Início</a>
+                <a href="#products" class="nav-link">Produtos</a>
+                <a href="#contact" class="nav-link">Contactos</a>
+            </div>
+            <div class="nav-right">
+                <a href="#dashboard" class="nav-link dashboard-link">
+                    <i class="fas fa-chart-line"></i> Dashboard
+                </a>
+                <a href="#cart" class="nav-link cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button class="btn-login">
+                    <i class="fas fa-user"></i> Login
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Secção About -->
+        <section id="about" class="section-about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/logo.png" alt="Let's Play!">
+                </div>
+                <div class="about-text">
+                    <h1>OctoLab Prints</h1>
+                    <p>
+                        Bem-vindo ao laboratório mais tentacular da impressão 3D! 
+                        Aqui, o polvo não só segura comandos — ele imprime ideias com estilo. 
+                        Se procuras objetos únicos, coloridos e com atitude, estás no sítio certo.
+                    </p>
+                    <p>
+                        Na OctoLab Prints, misturamos criatividade com tecnologia para dar vida a
+                         peças que fazem virar cabeças. Impressões 3D com personalidade, para gamers,
+                          geeks e curiosos. Porque o mundo já tem plástico suficiente — nós damos-lhe
+                           forma!
+                    </p>
+                    <a href="#products" class="btn-primary">Ver Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção Shopping List -->
+        <section id="products" class="section-products">
+            <div class="products-container">
+                <h2>Os nossos Sets</h2>
+                <div class="products-grid">
+                    <!-- Produto 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/octoskull.jpg" alt="octoskull">
+                        </div>
+                        <div class="product-info">
+                            <h3>OctoSkull</h3>
+                            <p class="product-price">€39.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/death.jpg" alt="Caronte">
+                        </div>
+                        <div class="product-info">
+                            <h3>Death Gamer</h3>
+                            <p class="product-price">€49.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/full_set.jpg" alt="Full Set">
+                        </div>
+                        <div class="product-info">
+                            <h3>Full Set</h3>
+                            <p class="product-price">€59.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/octopus2.jpg" alt="Octo">
+                        </div>
+                        <div class="product-info">
+                            <h3>Octo</h3>
+                            <p class="product-price">€49.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 5 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/ooze.jpg" alt="ooze">
+                        </div>
+                        <div class="product-info">
+                            <h3>Radioactive</h3>
+                            <p class="product-price">€29.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 6 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/color_skull.jpg" alt="octo wins">
+                        </div>
+                        <div class="product-info">
+                            <h3>Octo Wins</h3>
+                            <p class="product-price">€39.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 7 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/octopus1.jpg" alt="Rainbow">
+                        </div>
+                        <div class="product-info">
+                            <h3>Rainbow Game!</h3>
+                            <p class="product-price">€29.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Produto 8 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/skull.jpg" alt="Grave">
+                        </div>
+                        <div class="product-info">
+                            <h3>Game Over</h3>
+                            <p class="product-price">€79.99</p>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-action btn-delete" title="Eliminar">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn-action btn-cart" title="Adicionar ao Carrinho">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button class="btn-action btn-info" title="Mais Informações">
+                                <i class="fas fa-info-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contactos</h3>
+                <p><i class="fas fa-envelope"></i> info@octolab.pt</p>
+                <p><i class="fas fa-phone"></i> +351 123 456 789</p>
+                <p><i class="fas fa-map-marker-alt"></i> Gamer Street, 123, Porto</p>
+            </div>
+            <div class="footer-social">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 OctoLab Prints. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
