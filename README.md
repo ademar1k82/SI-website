@@ -1,3 +1,4 @@
+# SI-website
+Site de vendas associado à disciplina de SI
 
-# Site de Vendas
 Projeto integrado com HTML, CSS, JS e PostgreSQL.
