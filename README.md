@@ -187,5 +187,3 @@ setTimeout(() => notificacao.remove(), 3000);
 - Implementar **interfaces dinâmicas** (modals/notificações)
 - Aplicar **boas práticas** de organização de código
 - Criar **experiências de utilizador** profissionais
-
-**Perfeito para alunos do 11º ano:** Código bem comentado, estruturado e com complexidade crescente! 🎓
